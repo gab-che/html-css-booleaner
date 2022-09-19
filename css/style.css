@@ -36,6 +36,11 @@ h1{
     color: #39b2e7;
 }
 
-figure{
+.highlight{
+    background-color: #ffff00;
+}
+
+/* Allineamento immagine a sinistra*/
+.left-aligned{
     margin-left: 0;
 }
