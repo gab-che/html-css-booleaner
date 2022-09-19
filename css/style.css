@@ -35,3 +35,7 @@ h1{
 #blue-text{
     color: #39b2e7;
 }
+
+figure{
+    margin-left: 0;
+}
