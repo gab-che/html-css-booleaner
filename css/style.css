@@ -44,3 +44,23 @@ h1{
 .left-aligned{
     margin-left: 0;
 }
+
+/* Regole di formattazione tabella */
+table{
+    width: 100%;
+    text-align: left;
+}
+
+.narrow-column{
+    width: 25%;
+}
+
+.table-header{
+    color:white;
+    background-color: #20a9e5;
+    width: 100px;
+}
+
+.lightblue-row{
+    background-color: #b1e5f2;
+}
