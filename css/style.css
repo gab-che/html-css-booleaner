@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0;
     margin-bottom: 20px;
 }
 
 /* Regole per header e logo */
-header{
+header {
     height: 100px;
     background-color: #4ea0ff;
     background-image: url("../img/pattern.png");
@@ -12,75 +12,85 @@ header{
     background-position-x: center;
 }
 
-#logo{
+#logo {
     width: 200px;
     margin-left: 10px;
     margin-top: 40px;
 }
 
 /* Regole generiche per main e footer */
-main, footer{
+main,
+footer {
     margin-left: 10px;
 }
 
 /* Regole di formattazione testo */
-h1{
+h1 {
     font-size: 40px;
     margin-bottom: 0;
 }
-.grey-text{
-    color:#8b8b8b;
-    margin:0;
+
+.grey-text {
+    color: #8b8b8b;
+    margin: 0;
 }
 
-#blue-text{
+figcaption {
+    font-size: smaller;
+}
+
+#blue-text {
     color: #39b2e7;
 }
 
-.highlight{
+.highlight {
     background-color: #ffff00;
 }
 
-.white-text{
+.white-text {
     color: white;
     font-size: larger;
     padding: 10px;
 }
 
-/* Allineamento immagine a sinistra*/
-.left-aligned{
+/* Allineamento a sinistra di immagine e lista puntata*/
+.left-aligned {
     margin-left: 0;
 }
 
+.ul-aligned {
+    padding: 15px;
+}
+
 /* Regole di formattazione tabella */
-table{
+table {
     width: 100%;
     text-align: left;
 }
 
-.narrow-column{
+.narrow-column {
     width: 25%;
 }
 
-.table-header{
-    color:white;
+.table-header {
+    color: white;
     background-color: #20a9e5;
     width: 100px;
 }
 
-.lightblue-row{
+.lightblue-row {
     background-color: #b1e5f2;
 }
 
 /* Immagini di sfondo */
-#monitor{
+#monitor {
     width: 250px;
     height: 180px;
     background-image: url("../img/monitor.jpg");
     background-size: cover;
 }
 
-#graph{
+#graph {
     width: 250px;
     height: 180px;
     background-image: url("../img/graph.jpg");
