@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+/* Regole per header e logo */
+header{
+    height: 100px;
+    background-color: #4ea0ff;
+    background-image: url("../img/pattern.png");
+    background-size: 30%;
+    background-position-x: center;
+}
+
+#logo{
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+/* Regole generiche per main e footer */
+main, footer{
+    margin-left: 10px;
+}
