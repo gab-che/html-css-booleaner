@@ -21,3 +21,17 @@ header{
 main, footer{
     margin-left: 10px;
 }
+
+/* Regole di formattazione testo */
+h1{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.grey-text{
+    color:#8b8b8b;
+    margin: 0;
+}
+
+#blue-text{
+    color: #39b2e7;
+}
